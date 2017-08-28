@@ -1,3 +1,11 @@
 form a {
 	margin-left: 10px;
 }
+
+body {
+	background: url("./dark-triangles.png");
+}
+
+.white {
+	color: white;
+}

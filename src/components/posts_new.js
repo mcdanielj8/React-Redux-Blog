@@ -34,7 +34,7 @@ class PostsNew extends Component {
 		const { handleSubmit } = this.props;
 
 		return (
-			<form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
+			<form className="white" onSubmit={handleSubmit(this.onSubmit.bind(this))}>
 				<Field
 					label="Title"
 					name="title"
@@ -46,6 +46,7 @@ class PostsNew extends Component {
 					component={this.renderField}
 				/>
 				<Field
+					type="textarea"
 					label="Content"
 					name="content"
 					component={this.renderField}

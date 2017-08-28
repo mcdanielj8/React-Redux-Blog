@@ -25,7 +25,7 @@ class PostsShow extends Component {
 		}
 
 		return (
-			<div>
+			<div className="white">
 				<Link to="/" className="btn btn-primary">Back to Home</Link>
 				<button
 					className="btn btn-danger pull-xs-right"
